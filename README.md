@@ -30,7 +30,8 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-## Notes
+## Notes/Pseudocode
+- 4/8/21
 - When attempting to align text in the form of an h2 tag, you need to use the css property of 'text-align': center, nothing else works
 - When referencing a class in css you need to use a dot before the name
 - When referencing an id in css you need to use a hashtag before the name
@@ -40,3 +41,6 @@ code
     -   Add this to the HTML file within the header tag above the css link <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200&display=swap" rel="stylesheet">
     -   Reference it in the css file: font-family: 'IBM Plex Serif';
 * you must to some degree follow the api documentation found within the website of google fonts
+- 4/10/21 
+- I had to refresh my memory on how terminal(local) to github pages publishing actuall works, took me awhile but finally got things up and running 
+- Worked on an interesting css animation by leveraging the keyframes blink properties, learned how to manipulate each frame of the alloted time in order to create a more vibrant header

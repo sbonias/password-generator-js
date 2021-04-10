@@ -18,6 +18,36 @@ background-color: hsl(0, 0%, 1%);
 /* background-color: #f9fbfd; */
 }
 
+/* codepen inspired neon/blink effect
+https://codepen.io/ananyaneogi/pen/Bgozrz */
+
+h1 {
+  text-align: center;
+  animation: blink 6s infinite;
+}
+
+@keyframes blink {
+  40%,
+  55%,
+  70%
+   {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  38%,
+  42%,
+  53%,
+  57%,
+  68%,
+  72%,
+  100% {
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+
 h2 {
   text-align: center;
 }
@@ -149,3 +179,4 @@ button[disabled] {
     font-size: 0.8rem;
   }
 }
+
