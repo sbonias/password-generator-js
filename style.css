@@ -13,7 +13,8 @@ body,
 }
 
 body {
-font-family: 'IBM Plex Serif';
+/* font-family: 'IBM Plex Serif'; */
+font-family: 'Codystar', cursive;
 background-color: hsl(0, 0%, 1%);
 /* background-color: #f9fbfd; */
 }
@@ -24,6 +25,7 @@ https://codepen.io/ananyaneogi/pen/Bgozrz */
 h1 {
   text-align: center;
   animation: blink 6s infinite;
+  font-size: 32px;
 }
 
 @keyframes blink {
@@ -43,13 +45,15 @@ h1 {
   68%,
   72%,
   100% {
-  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-    color: #fff6a9;
+  text-shadow: 0 0 5px #8a8a88, 0 0 15px #8a8a88, 0 0 20px #8a8a88, 0 0 40px #8a8a88, 0 0 60px #2e2d2d, 0 0 10px #8a8a88, 0 0 98px #2e2d2d;
+    color: #ffffff;
   }
 }
 
 h2 {
   text-align: center;
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 30px;
 }
 
 .wrapper {
@@ -128,6 +132,12 @@ h2 {
   text-align: center;
   cursor: pointer;
   font-family: 'IBM Plex Serif';
+  transition: transform 180ms;
+}
+
+.btn:hover {
+  background-color:rgb(9, 151, 109);
+  transform: translateY(+4px);
 }
 
 button[disabled] {
@@ -179,4 +189,3 @@ button[disabled] {
     font-size: 0.8rem;
   }
 }
-

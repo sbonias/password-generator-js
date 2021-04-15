@@ -44,3 +44,8 @@ code
 - 4/10/21 
 - I had to refresh my memory on how terminal(local) to github pages publishing actuall works, took me awhile but finally got things up and running 
 - Worked on an interesting css animation by leveraging the keyframes blink properties, learned how to manipulate each frame of the alloted time in order to create a more vibrant header
+- 4/12/21
+- Attempted to get background music for this app to play, after having wasted much time, it was determined that it's not a relatively easy thing to do without an actual media player on the page or an end user triggering the event. Chrome has made it really difficult to autoplay music on the web due to marketing/advertisers taking advantage. So the decision was made to not proceed with any type of auto background music for this app I guess for good reason. Maybe will revisit down the road how to incorporate some sort of audio.
+- 4/14/21
+- Applied some styling to the Generate Password button by creating a hover effect using the transform and translate properties. Ultimately creating the button element to move up by a small degree to create an animation effect.
+
