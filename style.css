@@ -25,7 +25,8 @@ https://codepen.io/ananyaneogi/pen/Bgozrz */
 h1 {
   text-align: center;
   animation: blink 6s infinite;
-  font-size: 32px;
+  font-size: 36px;
+  font-weight: bold;
 }
 
 @keyframes blink {
@@ -54,6 +55,26 @@ h2 {
   text-align: center;
   font-family: 'Londrina Shadow', cursive;
   font-size: 30px;
+}
+
+/* form {
+  text-align: center
+} */
+
+label {
+  text-align: left;
+  margin-left: 25%;
+  font-family: 'IBM Plex Serif';
+}
+
+input {
+float: right;
+margin-right: 25%;
+margin-top: 1.5% 
+}
+
+.hide {
+  display: none
 }
 
 .wrapper {
@@ -99,11 +120,13 @@ h2 {
   min-height: 100px;
 }
 
-.card-footer {
+.card-footer
+{
   text-align: center;
 }
 
-.card-footer::before {
+.card-footer::before
+{
   content: " ";
   display: block;
   width: 100%;
@@ -111,13 +134,14 @@ h2 {
   height: 2px;
 }
 
-.card-footer::after {
+.card-footer::after
+{
   content: " ";
   display: block;
   clear: both;
 }
 
-.btn {
+button {
   border: none;
   background-color: rgb(8, 175, 125);
   border-radius: 25px;
@@ -135,14 +159,10 @@ h2 {
   transition: transform 180ms;
 }
 
-.btn:hover {
+button:hover {
   background-color:rgb(9, 151, 109);
   transform: translateY(+4px);
-}
-
-button[disabled] {
-  cursor: default;
-  background: #c0c7cf;
+  color: hsl(0, 0%, 100%);
 }
 
 .float-right {
@@ -173,7 +193,7 @@ button[disabled] {
 }
 
 @media (max-width: 690px) {
-  .btn {
+  button {
     font-size: 1rem;
     margin: 16px 0px 0px 0px;
     padding: 10px 15px;
@@ -182,10 +202,57 @@ button[disabled] {
   #password {
     font-size: 1rem;
   }
+  label {
+    font-size: 0.8rem;
+    margin-left: 20%;
+  }
+  input {
+    margin-right: 20%;
+    margin-top: 2% 
+  }
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 24px
+  }
 }
 
 @media (max-width: 500px) {
-  .btn {
+  button {
     font-size: 0.8rem;
+  }
+  label {
+    font-size: 0.8rem;
+    margin-left: 0;
+  }
+  input {
+    margin-right: 0;
+    margin-top: 4% 
+
+  }
+
+}
+
+@media (max-width: 380px) {
+  label {
+    font-size: 0.8rem;
+    margin-left: -15%;
+  }
+  input {
+    margin-right: 0%;
+    margin-top: 4% 
+  }
+  h1 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 365px) {
+  label {
+    font-size: 0.6rem;
+  }
+  input {
+    margin-top: 8% 
   }
 }
